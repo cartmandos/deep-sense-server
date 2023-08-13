@@ -1,0 +1,39 @@
+{
+  "name": "deep-sense--server",
+  "version": "0.0.1",
+  "description": "DeepSense Backend Repository",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint --fix src/**/*.js",
+    "format": "prettier --write src/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cartmandos/deep-sense-server.git"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-security": "^1.7.1",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.1"
+  }
+}
