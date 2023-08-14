@@ -2,9 +2,9 @@ module.exports = {
   root: true,
   extends: [
     'eslint:recommended',
-    'prettier',
     'plugin:node/recommended',
     'plugin:security/recommended',
+    'prettier',
   ],
   parserOptions: {
     ecmaVersion: 'latest',
